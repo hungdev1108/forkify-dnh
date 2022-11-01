@@ -1,0 +1,21 @@
+{
+  "name": "forkify-dnh",
+  "version": "1.0.0",
+  "description": "",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir  ./dist"
+  },
+  "author": "HungDN",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.7.0",
+    "parcel": "^2.7.0"
+  },
+  "dependencies": {
+    "@parcel/transformer-js": "^2.7.0",
+    "fractional": "^1.0.0",
+    "node-sass": "^7.0.3"
+  }
+}
